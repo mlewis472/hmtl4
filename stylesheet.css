@@ -1,76 +1,88 @@
 body {
-color: black;
-text-align: center;
-background: url(images/background-image.jpg) no-repeat;
-background-size: cover;
-font-family: 'Roboto', sans-serif;
-}
+    color: white;
+    background-image: url(images/hockeybackground.png);
 
+}
 .container {
-    background-color:rgb(241, 162, 43);
-    width: 900px;
-    margin:0 auto;
+
+    max-width: 1024px;
+    min-height: 300px;
+    margin: 0 auto;
+
 }
 
 header {
-    width: auto;
-    height: 100px;
-}
-h1 {
-    background-color:rgb(241, 162, 43);
+    background-color: red;
+    text-align: center;
+    width: 100%;
+    min-height: 100px;
 
 }
-
 
 nav {
-    margin-top: 10px;
-    width: auto;
-    height: 50px;
-    background-color:rgb(241, 162, 43);
+    background-color: rgb(124, 10, 2);
+    width: 100%;
+    min-height: 50px;
 }
 
-nav a {
+ul {
     text-decoration: none;
-    color: black;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-img {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li {
+    display: inline;
+    float: left;
+    
+  }
+  
+  a {
+
+    display: block;
+    padding: 15px;
+    
+  }
+
+  main {
     
     float: left;
-}
+    color: white;  
+    margin-top: 10px;
+    background-color: rgb(124, 10, 2);
+    width: 900px; 
+    min-height: 250px;
+  }
 
-.section1 {
-    
-    
-    background-color:rgb(241, 162, 43);
-   clear: both;
-}
+  main h2 {
+    text-align: center;
+  }
+  
+  main img {
+      float: left;
+    padding: 20px;
 
-.article1 {
-   
-    background-color:rgb(241, 162, 43);
-    
-}
+  }
 
-.section2 {
-   margin-top: 100px;
-    width: 400px;
-    float: left;
-
-}
-
-.right {
-    margin-top: 100px;
-    width: 400px;
-    color: black;
-    background-color:rgb(241, 162, 43);
-    float: left;
-   
-}
-
-
-footer {
+  article{
     clear: both;
-    margin-top: 100px;
-}
+    background-color: rgb(124, 10, 2);
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    clear: both;
+    background-color: black;
+    min-height: 50px;
+    width: 100%;
+
+  }
