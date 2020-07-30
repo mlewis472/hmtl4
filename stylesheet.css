@@ -1,88 +1,369 @@
+
 body {
-    color: white;
-    background-image: url(images/hockeybackground.png);
+background-color: black;
+font-family: 'Roboto', sans-serif;
 
 }
-.container {
-
-    max-width: 1024px;
-    min-height: 300px;
-    margin: 0 auto;
-
-}
-
 header {
-    background-color: red;
-    text-align: center;
-    width: 100%;
-    min-height: 100px;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 1px;
+}
+
+header img {
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 70px;
+  height: 70px;
 
 }
 
-nav {
-    background-color: rgb(124, 10, 2);
-    width: 100%;
-    min-height: 50px;
+header h1 {
+  padding-left: 20px;
+  color: #B50F21;
+
 }
 
-ul {
+nav{
+  background-color: #B50F21;
+  width: 100%;
+  height: 62px;
+  display: flex;
+  
+}
+
+  nav a, ul {
     text-decoration: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
- li a {
     color: white;
-    text-decoration: none;
+    list-style-type: none;
+   
+    
+
+  }
+  ul {
+    display: flex;
+
   }
 
   li {
-    display: inline;
-    float: left;
-    
+   padding-left: 35px;
+   padding-right: 35px;
+
+
   }
+
+  .container {
+    margin: auto;
+    width: 1024px;
+    height: 0 auto;
+    }
+
+    main {
+      background-color: #C8C8C8;
+      width: 100%;
+      min-height: 300px;
+      display: flex;
+      justify-content: center;
+      
+    }
+
   
-  a {
-
-    display: block;
-    padding: 15px;
-    
-  }
-
-  main {
-    
-    float: left;
-    color: white;  
-    margin-top: 10px;
-    background-color: rgb(124, 10, 2);
-    width: 900px; 
+  .side-media {
+    width: 145px;
     min-height: 250px;
+    margin-right: 65px;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 
-  main h2 {
+  .section-media {
+    background-color: whitesmoke;;
+    width: 139px;
+    height: 202px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .head-tag {
+    border-bottom-style: solid;
+    border-width: 1px;
     text-align: center;
   }
+
+  .section-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .section-wrapper img {
+    padding-left: 5px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .section-wrapper p {
+    padding-left: 10px;
+  }
+
   
-  main img {
-      float: left;
-    padding: 20px;
+  .article-tips {
+    background-color: whitesmoke;
+    width: 139px;
+    height: 270px;
+    margin-top: 35px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+  }
+
+  .article-tips img {
+    padding-top: 5px;
+  }
+
+
+  .hero-box {
+    margin-top: 15px;
+    background-color: whitesmoke;;
+    width: 561px;
+    height: 507px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+  }
+
+  .hero-box img {
+    padding-top: 10px;
+    border-radius: 25px;
+
 
   }
 
-  article{
-    clear: both;
-    background-color: rgb(124, 10, 2);
-    width: 100%;
-    min-height: 250px;
-    text-align: center;
+  .hero-button {
+  background-color: #B50F21; 
+  border: none;
+  color: white;
+  padding: 20px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 25px;
+
+  }
+
+  .head-lines {
+    background-color: whitesmoke;;
+    width: 156px;
+    height: 271px;
+    margin-left: 65px;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: left;
+  }
+
+  .head-lines p {
+    padding-left: 4px;
+    font-size: 14px;
   }
 
   footer {
-    text-align: center;
-    clear: both;
-    background-color: black;
-    min-height: 50px;
-    width: 100%;
+  background-color: #111;
+  min-height: 100px;
+  width: 100%;
+    color: white;
+  }
 
+  /* Home page ends */
+
+  /* Team Page stars */
+
+  .main-team {
+    background-color: #C8C8C8;
+    width: 100%;
+    min-height: 300px;
+   
+  }
+
+  .roster-header1 {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 53px;
+    margin-bottom: 30px;
+  }
+
+  .roster-header1 h2 {
+    padding-top: 15px;
+    padding-left: 15px
+  }
+
+  .hero-box-team {
+    background-color: whitesmoke;;
+    width: 98%;
+    min-height: 507px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 auto;
+  }
+
+  .hero-box-team h2 {
+    padding-left: 15px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+ 
+
+ td, th {
+  padding: 7px;
+  text-align: left;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  
+ }
+
+ td {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+ }
+
+ th {
+  background-color: #B50F21;
+  color: white;
+}
+
+ td img {
+  border-radius: 50%;
+ }
+
+ .player-name {
+  background-color: white;
+  color: black;
+
+ }
+
+/* end of Team page */
+
+/* Start of Ticket page */
+
+.card1 {
+ background-image: url(images/day-ticket-img.jpg);
+ background-size: cover;
+ width: 400px;
+ min-height: 400px;
+margin-bottom: 50px;
+margin-right: 150px;
+margin-top: 25px;
+display: flex;
+align-items: flex-end;
+}
+
+.card1 a {
+  text-decoration: none;
+
+}
+
+.card2 {
+  background-image: url(images/tips-from-pro.jpg);
+  background-size: cover;
+  width: 400px;
+  min-height: 400px;
+ margin-bottom: 50px;
+ margin-top: 25px;
+ display: flex;
+  align-items: flex-end;
+ }
+
+ .card2 a {
+  text-decoration: none;
+
+}
+
+ .info {
+  width: 200px;
+  height: 82px;
+  background-color: #B50F21;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+ }
+
+ .info p {
+  padding-top: 25px;
+  font-size: 25px;
+ }
+
+/* End of Tickets page  */
+
+/* start of Season-ticket page */
+
+.container2 {
+  margin: auto;
+    width: 1024px;
+    height: 0 auto;
+    background-color: white;
+
+}
+
+.season-tickets-img {
+  width: 100%;
+  margin-bottom: 50px;
+
+}
+
+.main2 {
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  
+}
+
+.hero-box2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-box2 p {
+  font-size: 20px;
+  padding-bottom: 36px;
+
+}
+
+.hero-box2 h1 {
+  padding-top: 15px;
+  text-align: center;
+
+}
+
+.myhl {
+margin-top: 150px;
+width: 15%;
+margin: 0 auto;
+}
+
+hr {
+ border: 2px solid #B50F21;
+
+
+
+}
+
+.hero-button-t {
+  background-color: #B50F21; 
+  border: none;
+  color: white;
+  padding: 20px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 25px;
+  margin-left: 100px;
   }

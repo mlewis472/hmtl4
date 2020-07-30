@@ -3,57 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML4</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title> San Antonio RedHawks home</title>
 </head>
 <body>
 
-    <div class="container">
-    <header>
-        <h1>RedHawks</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
+    <header>  
+        <img src="images/Falcon-Mascot -Vector.png" alt="logo for San Antonio Red Hawks">
+        <h1>San Antonio Red Hawks</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+        </ul>
+    </nav>
+    
+    
+    
+    
+    
+    <div class="container">
 
-    <main>
-        <img src="images/hockeyplayer.jpg" alt="Hockeyplayer">
+       <main>
 
-            <h2>Rise to Fame?</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur <i>adipisicing</i> elit. Officiis pariatur quibusdam placeat, dolore qui blanditiis voluptates, necessitatibus nesciunt voluptatum <b> laboriosam</b> nostrum tempora consectetur repellendus cupiditate? Unde corrupti eaque quaerat molestias.</p>
+            <div class="side-media">
+                <div class="section-media">
+                    <div class="head-tag">
+                        <h3>Follow us</h3>
+                    </div>
+                    <div class="section-wrapper">
+                        <img src="images/icons-facebook.svg.png" alt="Facebook social media icon">
+                        <p>Facebook</p>
+                    </div>
+                    <div class="section-wrapper">
+                        <img src="images/icons-twitter.svg" alt="Twitter social media icon">
+                        <p>Twitter</p>
+                    </div>
+                    <div class="section-wrapper">
+                        <img src="images/icons-instagram.svg" alt="Instagram social media icon">
+                        <p>Instagram</p>
+                    </div>
+                </div>
+                <article class="article-tips">
+                    <div class="head-tag">
+                        <h3>Tips from a pro</h3>
+                    </div>
+                    <img src="images/tips-from-pro.jpg.png" alt="Number 20 skating">
+                </article>
+            </div>
 
-        <article>
-            <h3>Best Goals of the Season?</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/75XOXfFxPuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
+            <section class="hero-box">
+                <img src="images/hero-box-img.png" alt="Player on defense getting ready">
+                <h2>Get on the ice with Season Tickets today</h2>
+                <a href="season-tickets.html"> <div class="hero-button">More Info
+                    
+                </div></a>
+            </section>
 
-        <article>
-           <h3>RedHawk fans unite</h3>
-            <p>Get news right when it happens when you sign up for the RedHawks news letter</p>
+            <section class="head-lines">
+                <div class="head-tag">
+                    <h3>head lines</h3>
+                </div>
+                <p>Weekly: Rivalry - July 22</p>
+                <p>Training: Lowry's injury</p>
+                <p>Scouting: Trip to France</p>
+                <p>Watch now: OT win</p>
+                <p>Blog: SARH: future</p>
+                <p>News Flash: Special offer</p>
+            </section>
+       </main>
 
-            <form action="/action_page.php">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value=""><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value=""><br>
-                <label for="email">Enter your email:</label><br>
-                <input type="email" id="email" name="email"> <br> <br>
-                <input type="submit" value="Submit"> 
-            </form>
-        </article>
-    </main>
+        <footer>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo perspiciatis tempore praesentium, molestias beatae fugiat. Earum facere, optio quaerat iste adipisci, odit aperiam molestiae dicta consectetur est, voluptatum quibusdam odio!</p>
 
-    <footer>
-        <p>copy right RedHawks 2020</p>
-
-    </footer>
-
-
+        </footer>
 
     </div>
 
@@ -63,5 +92,19 @@
 
 
 
+
+
+
+
+
+
+
+
+    
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
 </html>
